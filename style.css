@@ -18,7 +18,13 @@ ul li{
     list-style: none;
     padding:5px;
     
+    
 }
+
+a{
+  text-decoration: none;
+}
+
 
 ul{
     padding-inline-start: 20px;
@@ -30,10 +36,14 @@ li{
 }
 
 nav{
-
+    position:sticky;
+    top:0;
     border-top: solid;
     border-bottom: solid;
     color:#eee;
+    background: white;
+  
+    
     
 }
 /*@font-face {
@@ -70,6 +80,9 @@ div section {
     
 }
 
+.section1{
+  border:5px solid red;
+}
 
 /*"The import at the top of the style.css file includes all the fonts needed for this activity.
 
